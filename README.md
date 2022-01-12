@@ -1,4 +1,4 @@
-Code 2 2020
+~Code 2 2020~ Advanced Critical Computation
 =================
 
 This is the website for Code 2, an undergraduate-level course at Parsons Design & Technology at the New School.  
