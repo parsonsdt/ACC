@@ -1,20 +1,35 @@
-~Code 2 2020~ Advanced Critical Computation 2022
-=================
+# Critical Computation 2021
 
-This is the website for Code 2, an undergraduate-level course at Parsons Design & Technology at the New School.  
+This is the [website](https://parsonsdt.github.io/critical-computation-2021/) for Critical Computation, an undergraduate and graduate-level course at Parsons Design & Technology at the New School.
 
-### Faculty
-- Xin Xin (they/them)  
+### Lecture Faculty
 
-Course Descriptions
-------------
+- Katherine Moriwaki (she/her)
+- [Xin Xin](https://github.com/xinemata) (they/them)
 
-Code 2 is a continuation of the principles and techniques taught in Code 1. Students will expand their conceptual and technical skills in the pursuit of mastering code and procedurality as a tool for creative, critical, and aesthetic exploration and expression. The class content will focus on building more complex systems and exploring specific creative applications of code. Topics will include algorithms, object-oriented programming, and the historical and cultural context of software in art and design. Students will work with p5.js to produce creative work, culminating in a final project engaging with an aspect of the course content in detail.
+### Lab Faculty
 
-Learning Outcomes
-------------
+- [Aarati Akkapeddi](https://github.com/AaratiAkkapeddi) (they/them)
+- [Dan Lichtman](https://github.com/danielp73) (he/him)
+- [Elizabeth Pérez](https://github.com/brujadev) (she/her)
+- [Jules Kris](https://github.com/jules-kris) (they/them)
+- [Kevin Cadena](https://github.com/stayclassyinfo) (he/him)
+- [Sean Scanlan](https://github.com/twotabsofacid) (he/him)
+- [Tristan Espinoza](https://github.com/tespin) (he/they)
 
-1. Demonstrate knowledge and application of fundamental programming skills in p5.js.
-1. Develop a deep understanding of the relationship between code and design.
-1. Manipulate data and text critically, via APIs, databases, and regular expressions.
-1. Critically discuss and create work drawing from historical precedents of computational literature, critical design, and data visualization, as well as understanding the Internet as a site for potential intervention.
+## Course Descriptions
+
+Critical Computation Lecture + Lab (CC Lecture + CC Lab) are corequisites that work hand-in-hand to introduce computation and code as an expressive medium for artists, designers, and technologists. CC Lecture provides an introduction to computation through a series of critical inquiries and technical fundamentals, while CC Lab serves as a continuum of CC Lecture by applying theories to practice through a series of experimentations and play. Together, the three learning pillars for CC Lecture + CC Lab are code, critique, and design.
+
+CC Lecture provides a critical approach to thinking and working with technology by introducing programming concepts within a social and historical context. Through an intersectional feminist lens, the course unpacks design biases embedded in pervasive technology while pointing towards examples of expressive, critical, and community-centric ways of working with technology. On the technical end, the course introduces programming fundamentals through p5.js, followed by examples of additional JavaScript libraries and external APIs.
+
+Lab expands the topics covered in CC Lecture through extended tutorials, pair-programming sessions, embodied group activities, and one-on-one mentoring. The lab structure allows students to process the course materials and Assignments assigned by CC Lecture, and further develop the assignments based on their own individual interests and background.
+
+## Learning Outcomes
+
+1. Demonstrate knowledge and application of object-oriented programming skills in p5.js.
+1. Embody code as an expressive medium by learning its strengths and limitations.
+1. Investigate the relationship between code, design, and critique through past examples and creating your own.
+1. Ability to discuss and create work through a critical lens and reference computational arts and culture through a non-Western-centric, multilinear perspective.
+1. Gain insights into the social impact of code; how it creates empowerments and disempowerment under different contexts.
+1. Acquire a basic understanding of how to assess and manipulate data critically via APIs and regular expressions.
