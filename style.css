@@ -49,6 +49,11 @@ body{
 #home-panel{
   background: #3D5B3D;
 }
+
+hr {
+    width: 100%;
+    stroke-width: 2px;
+}
 .plant-icon{
   display: inline-block;
     vertical-align: middle;
@@ -68,7 +73,7 @@ body{
   opacity: 0.8;
   overflow: hidden;
   width:100%;
-  height:100%;
+  height:75%;
 }
 .falling-leaves img{
   position: absolute;
@@ -97,7 +102,7 @@ body{
 }
 .falling-leaves img:nth-child(5){
   right:100px;
-  top:600px;
+  top:450px;
   animation: falling 2s ease-in-out 0.5s forwards;
 }
 .falling-leaves img:nth-child(6){
@@ -192,6 +197,17 @@ ol,
 ul {
   padding: 0;
   margin: 15px 0px;
+
+}
+
+.assignment ul {
+  padding-left: 15px;
+}
+
+
+
+.full-width {
+  width: 100%;
 }
 
 ul.bullet {
@@ -255,12 +271,16 @@ li a {
   text-align: right;
   margin-top: 35px;
   width: 100%;
+  text-align: left;
 }
 
 div#sub-nav ul {
   list-style-type: none;
 }
 
+div#sub-nav ul li {
+  margin-bottom: 10px;
+}
 div#sub-nav ul li a {
   text-decoration: none;
   color: lightgoldenrodyellow;
@@ -467,13 +487,14 @@ iframe {
   padding: 0;
   border: none;
   width: 100%;
-  /*   height: 400px; */
+  height: 400px;
   display: inline-block;
   float: left;
   margin-bottom: 2%;
 }
 
-.#3D5B3DBox {
+
+.blackBox {
   display: inline-block;
   background-color: #3D5B3D;
   width: 100%;
@@ -524,11 +545,15 @@ img {
 /*  MOBILE */
 @media only screen and (max-width: 600px) {
   .falling-leaves{
-      opacity:0.3;
+      margin-top: 50%;
   }
   .nav-container{
     position: relative;
     z-index: 1;
+  }
+
+  .title {
+    width: 100vw;
   }
   .splash{
     width: auto;

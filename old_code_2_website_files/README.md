@@ -1,4 +1,4 @@
-~Code 2 2020~ Advanced Critical Computation 2022
+~Code 2 2020~ Advanced Advanced Critical Computation 2022
 =================
 
 This is the website for Code 2, an undergraduate-level course at Parsons Design & Technology at the New School.  
