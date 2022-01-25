@@ -79,7 +79,7 @@ body{
   position: absolute;
   top:0;
   pointer-events: none;
-  border-radius: 100%;
+  border-radius: 0%;
   border: 4px solid #3D5B3D;
 }
 .falling-leaves img:nth-child(1){
@@ -118,8 +118,8 @@ body{
   animation: falling 4s ease-in-out 1s forwards;
 }
 .falling-leaves img:nth-child(8){
-  right:389px;
-  top:500px;
+  right:489px;
+  top:550px;
   animation: falling 4s ease-in-out 0.5s forwards;
 }
 .falling-leaves img:nth-child(9){
