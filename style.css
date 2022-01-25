@@ -39,7 +39,16 @@
   75% {transform:rotate(-45deg);}
   100% { transform:rotate(0); }
 }
-
+body#home{
+  background: #3D5B3D;
+}
+body{
+  background-color: #3D5B3D;
+  color:  lightgoldenrodyellow;
+}
+#home-panel{
+  background: #3D5B3D;
+}
 .plant-icon{
   display: inline-block;
     vertical-align: middle;
@@ -92,8 +101,8 @@
   animation: falling 2s ease-in-out 0.5s forwards;
 }
 .falling-leaves img:nth-child(6){
-  right:120px;
-  top:305px;
+  right:187px;
+  top:249px;
   animation: falling 2s ease-in-out 0.25s forwards;
 }
 .falling-leaves img:nth-child(7){
@@ -146,7 +155,7 @@ h3 {
 
 h1 {
   font-family: "Bespoke-R40K4cJxyk", monospace;
-  color: #373fff;
+  color: lightgoldenrodyellow;
   font-size: 20px;
   line-height: 28px;
   width: 100%;
@@ -169,7 +178,7 @@ h4,
 h4 a {
   padding: 0;
   margin: 0;
-  color: gray;
+  color: darkgoldenrod;
   font-style: italic;
   font-weight: normal;
   font-size: 10pt;
@@ -177,7 +186,7 @@ h4 a {
 }
 
 a {
-  color: #373fff;
+  color: lightgoldenrodyellow;
 }
 ol,
 ul {
@@ -196,18 +205,18 @@ li.bullet {
 }
 
 li.bullet a {
-  color: black;
+  color: #3D5B3D;
 }
 
 li a {
-  color: black;
+  color: lightgoldenrodyellow;
   text-decoration: underline;
 }
 
 .nav-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: lime;
+  background-color: lightgoldenrodyellow;
 }
 
 .nav-container-content {
@@ -224,7 +233,7 @@ li a {
 }
 
 .nav-container a {
-  color: black;
+  color: #3D5B3D;
   text-decoration: none;
 }
 
@@ -254,12 +263,12 @@ div#sub-nav ul {
 
 div#sub-nav ul li a {
   text-decoration: none;
-  color: black;
+  color: lightgoldenrodyellow;
 }
 
 div#sub-nav ul li a:hover {
   text-decoration: underline;
-  color: black;
+  color: lightgoldenrodyellow;
 }
 
 #main-panel {
@@ -310,7 +319,7 @@ div#sub-nav ul li a:hover {
   font-size: 10pt;
   line-height: 12pt;
   text-align: left;
-  box-shadow: 0 0 0 3px #373fff;
+  box-shadow: 0 0 0 3px black;
 }
 
 .two-grid-container {
@@ -318,7 +327,7 @@ div#sub-nav ul li a:hover {
   grid-template-columns: auto auto;
   margin-bottom: 3%;
   padding: 20px;
-  background-color: black;
+  background-color: #3D5B3D;
   color: white;
 }
 
@@ -464,23 +473,23 @@ iframe {
   margin-bottom: 2%;
 }
 
-.blackBox {
+.#3D5B3DBox {
   display: inline-block;
-  background-color: black;
+  background-color: #3D5B3D;
   width: 100%;
   height: 100%;
 }
 .splash {
   display: block;
   width: 500px;
-  color: lime;
+  color: lightgoldenrodyellow;
   padding: 5%;
   font-family: "Bespoke-R40K4cJxyk", monospace;
   font-size: 40px;
   line-height: 50px;
 }
 .splash a {
-  color: lime;
+  color: lightgoldenrodyellow;
   text-decoration: none;
 }
 
@@ -526,7 +535,7 @@ img {
   }
   .divider-mobile {
     display: block;
-    border: 0.1px solid black;
+    border: 0.1px solid #3D5B3D;
   }
   .main-container {
     display: block;
