@@ -1,6 +1,6 @@
 # Advanced Advanced Critical Computation 2022
 
-This is the [website](https://parsonsdt.github.io/Advanced-Critical-Computation-2022/) for Advanced Advanced Critical Computation, an undergraduate course at Parsons Design & Technology at the New School.
+This is the [website](https://parsonsdt.github.io/Advanced-Critical-Computation-2022/) for Advanced Critical Computation, an undergraduate course at Parsons Design & Technology at the New School.
 
 
 ### Faculty
@@ -11,7 +11,7 @@ This is the [website](https://parsonsdt.github.io/Advanced-Critical-Computation-
 
 ## Course Descriptions
 
-Advanced Advanced Critical Computation is a continuation of the principles and techniques taught in Advanced Critical Computation. Students will expand their conceptual and technical skills in the pursuit of mastering code and procedurality as a tool for creative, critical, and aesthetic exploration and expression. Topics will include algorithms, object-oriented programming, and the historical and cultural context of software in art and design. We will focus on building more complex systems and exploring specific creative applications of code. Students will work with p5.js and Javascript to produce five creative projects throughout the semester.
+ Advanced Critical Computation is a continuation of the principles and techniques taught in Critical Computation. Students will expand their conceptual and technical skills in the pursuit of mastering code and procedurality as a tool for creative, critical, and aesthetic exploration and expression. Topics will include algorithms, object-oriented programming, and the historical and cultural context of software in art and design. We will focus on building more complex systems and exploring specific creative applications of code. Students will work with p5.js and Javascript to produce five creative projects throughout the semester.
 
 ## Learning Outcomes
 
