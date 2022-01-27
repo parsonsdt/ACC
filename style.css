@@ -88,17 +88,17 @@ hr {
 }
 .falling-leaves img:nth-child(1){
   right: -40px;
-    top: 5px;
+    top: 150px;
   animation: falling 2s ease-in-out 2s forwards;
 }
 .falling-leaves img:nth-child(2){
     right: 200px;
-    top: 10px;
+    top: 170px;
   animation: falling 2s ease-in-out 0.5s forwards;
 }
 .falling-leaves img:nth-child(3){
-  right:420px;
-  top:50px;
+  right:450px;
+  top:150px;
   animation: falling 2s ease-in-out 0.3s forwards;
 }
 .falling-leaves img:nth-child(4){
@@ -526,8 +526,8 @@ img {
   float: left;
   margin-bottom: 2%;
   margin-right: 2%;
-  border:   1px solid darkgoldenrod;
-  box-shadow: 1px 1px 3px darkgoldenrod;
+/*  border:   1px solid darkgoldenrod;
+  box-shadow: 1px 1px 3px darkgoldenrod;*/
 }
 
 .inline-img{
@@ -553,7 +553,7 @@ img {
 /*  MOBILE */
 @media only screen and (max-width: 600px) {
   .falling-leaves{
-      margin-top: 50%;
+      margin-top: 70%;
   }
   .nav-container{
     position: relative;
@@ -603,7 +603,26 @@ img {
     margin: 0;
     width: auto;
   }
-
+.falling-leaves img{
+  height: 100px;
+  left: 0;
+  top: 50%;
+}
+.falling-leaves img:nth-child(1){
+  left: 280px;
+  top: 50%;
+}
+.splash{
+  font-size: 25px;
+}
+.falling-leaves img:nth-child(2){
+  left: 150px;
+  top: 50%;
+}
+.falling-leaves img:nth-child(3){
+  left: 50px;
+  top: 50%;
+}
   .nav-container div {
     display: inline-block;
     padding: 5px;
