@@ -265,7 +265,14 @@ li a {
   flex-direction: row;
   align-content: flex-start;
 }
-
+#main-panel{
+  position: relative;
+  max-width: 60%;
+}
+.main-container .gist, .main-container video{
+  max-width:  100% !important;
+  position: relative;
+}
 .main-container > div {
   padding: 3%;
 }
@@ -627,7 +634,10 @@ img {
     display: inline-block;
     padding: 5px;
   }
-
+#main-panel{
+  position: relative;
+  max-width: 100%;
+}
   #reading-table td ul {
     margin: 0 0 0 -20px;
   }
