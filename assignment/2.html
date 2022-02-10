@@ -60,7 +60,7 @@
             others? <br />
             <br />
     
-            You'll be looking back at your consentful interface/experimental camera from Crticial Computation as a starting point for project #2. For this assignment, you will integrate your own <a href="https://teachablemachine.withgoogle.com/">Teachable Machine model</a> to create a camera filter for a specific context. <a href="https://twitter.com/cameronhunter/status/1305667539922550784">For example, your idea might be to build a zoom filter that translates certain gestures into easy-to-read text</a>. <a href='https://www.instagram.com/ar/446108235955634/'>Or you might build a camera filter that superimposes and celebrates face jewelry that is from your culture.</a> Whatever your idea is, be intentional and thoughtfull about how you will integrate Teachable Machine into your sketch. In addition to using Teachable Machine, you will also be improving/re-designing the interface of your camera. Really think carefully about typography, sequence, and the user experience. Test your camera out with friends or strangers to help you understand potential pitfalls in your interface. Where do people get stuck or confused? How can you make things as clear and accessible as possible? And finally, you will be thinking a little more strategically about your code organization. For example, try to compartmentalize your logic using user-defined functions and/or classes. If your draw() function is getting very long, chances are you can move some of the logic out into it's own function or class. 
+            You'll be looking back at your consentful interface/experimental camera from Crticial Computation as a starting point for project #2. For this assignment, you will integrate your own <a href="https://teachablemachine.withgoogle.com/">Teachable Machine model</a> to create a camera filter for a specific context. <a href="https://twitter.com/cameronhunter/status/1305667539922550784">For example, your idea might be to build a zoom filter that translates certain gestures into easy-to-read text</a>. <a href='https://www.instagram.com/ar/446108235955634/'>Or you might build a camera filter that superimposes and celebrates face jewelry that is from your culture.</a> Whatever your idea is, be intentional and thoughtful about how you will integrate Teachable Machine into your sketch. In addition to using Teachable Machine, you will also be improving/re-designing the interface of your camera. Really think carefully about typography, sequence, and the user experience. Test your camera out with friends or strangers to help you understand potential pitfalls in your interface. Where do people get stuck or confused? How can you make things as clear and accessible as possible? And finally, you will be thinking a little more strategically about your code organization. For example, try to compartmentalize your logic using user-defined functions and/or classes. If your draw() function is getting very long, chances are you can move some of the logic out into it's own function or class. 
           </p>
     
           <h2>Required Readings</h2>
@@ -190,27 +190,24 @@
           </p>
           <h2>Timeline & Deliverables</h2>
           <p>
-            Feb 17 | Feb 18: Submit proposal for your exprimental camera to Canvas and to <a href="https://www.are.na/aarati-akkapeddi/experimental-camera">Are.na</a>. The
-            proposal should include an overall description that describes the goals
-            of your experimental camera and an illustration of the interface design.
+            Feb 17 | Feb 18: Submit your in-progress prototype to your class Discord and a written paragraph of your idea and how it addresses the following:  How will your sketch improve on the interface design? How will your code be more organized/structured? How will you integrate Teachable Machine in a way that supports your concept?
             <br />
-            Feb 24 | Feb 25: Complete white-boxed version of the project.
+            Feb 24 | Feb 25: Submit documentation of your pair programming meeting to discord -- this can be a written summary of what you did together and if you are comfortable, a selfie :)
             <br />
             Mar 23 | Mar 4: Project due, present during class.
           </p>
     
           <h2>Submission Guidelines</h2>
           <p>
-            Submit proposal and white-boxed version of your project to Canvas
             <br />
-            Submit your finalized sketch to Canvas
+            Submit your finalized glitch portfolio page to Canvas
           </p>
     
           <h2>Design Constraints</h2>
           <p>
             (1) Your canvas size should be windowWidth * windowHeight <br />
-            (2) Your project should interact with the DOM<br />
-            (3) Your project should use createGraphics() and / or loadPixels()<br />
+            (2) Your project should use User-defined functions and/or classes<br />
+            (3) Your project should use Teachable Machine<br />
           </p>
     
           <h1>Study Guide</h1>
@@ -219,15 +216,26 @@
             Table of Content
           </h2>
           <p>
-            (1) <a href="#dom">Interacting with the DOM</a><br />
-            (2) <a href="#clm">clmtrkr.js</a><br />
-            (3) <a href="#cg">createGraphic()</a><br />
-            (4) <a href="#copy">copy()</a><br />
-            (5) <a href="#setget">set() and get()</a><br />
-            (6) <a href="#pixel">loadPixels() and updatePixels()</a><br />
-            (7) <a href="#perf">Performance Management</a><br />
+            (1) <a href="#teachablemachine">Teachable Machine</a><br />
+            (2) <a href="#dom">Interacting with the DOM</a><br />
+            (3) <a href="#clm">clmtrkr.js</a><br />
+            (4) <a href="#cg">createGraphic()</a><br />
+            (5) <a href="#copy">copy()</a><br />
+            (6) <a href="#setget">set() and get()</a><br />
+            (7) <a href="#pixel">loadPixels() and updatePixels()</a><br />
+            (8) <a href="#perf">Performance Management</a><br />
           </p>
-    
+          <div id="teachablemachine">
+            <h2>Teachable Machine</h2>
+            <p>How to train a model and load your model into p5js</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kwcillcWOg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Snake Game with Teachable Machine</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UPgxnGC8oBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>How to use your p5 sketch as a Zoom filter with <a href="https://obsproject.com/">OBS</a></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9z9mbiOZqSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>bonus: teachable machine with sound classification</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TOrVsLklltM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           <div id="dom"><h2>Interacting with the DOM</h2></div>
     
           <p>
